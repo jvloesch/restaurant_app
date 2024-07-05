@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>kitchenCentralWidget</class>
+ <widget class="QWidget" name="kitchenCentralWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLCDNumber" name="currentOrder">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>731</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLCDNumber{
+	color: rgb(186, 0, 0);
+}</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="nextOrder1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>300</y>
+     <width>341</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLCDNumber{
+	color: rgb(186, 0, 0);
+}</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="nextOrder2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>420</y>
+     <width>341</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLCDNumber{
+	color: rgb(186, 0, 0);
+}</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="nextOrder3">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>300</y>
+     <width>341</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLCDNumber{
+	color: rgb(186, 0, 0);
+}</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="nextOrder4">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>420</y>
+     <width>341</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLCDNumber{
+	color: rgb(186, 0, 0);
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
